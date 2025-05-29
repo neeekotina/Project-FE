@@ -1,7 +1,8 @@
 <html>
   <head>
     <title> Digian HomePage - Marketing Digital </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="digianscript.js"></script>
   </head>
   <body>
     <section name="inicio" id="ini">
@@ -9,8 +10,8 @@
         <div class="logo"> Digian </div>
         <div class="nav">
           <button> INICIO </button>
-          <button> SOBRE NÓS </button>
-          <button> SERVIÇOS </button>
+          <button onclick="irparaSobre()"> SOBRE NÓS </button>
+          <button onclick="irparaServ()"> SERVIÇOS </button>
           <button> CONTATOS </button>
         </div>
           <div class="faq"> <button> FAQ </button> </div>
@@ -25,54 +26,77 @@
             <br>
             que vão potencializar a sua marca na Web.
             </p></div></div></section>
-            <section>
-          <div class="sobre">
-            <div class="sobretexto">
-              <h2>Sobre nós</h2>
-              <p>Com mais de 5 anos de experiência de mercado, a Digian surgiu como<br>
-                uma empresa e hoje se destaca no Brasil<br>
-                como uma das melhores consultorias do Marketing Digital.
+        <section id="sobre">
+      <div class="sobre">
+       <div class="sobretexto">
+        <h2>Sobre Nós</h2>
+        <p>Com mais de 5 anos de experiência de mercado a Digian surgiu como<br>
+        uma empresa e hoje se destaca no Brasil<br>
+        como uma das melhores consultorias do Marketing Digital.
+      </p>
+        <button class="iniciob" id="init"> INICIO</button>
+      </div>
+      <div class="sobreimagem">
+      <img src="sobre.png" width="90%" height="95%" id="sobre">
+      </div>
+       </div>
+       </section>
+       <section>
+        <div class="serv" id="serviço">
+          <h2 id="iserv">Nossos Serviços</h2>
+          <p>Veja a seguir os serviços oferecidos pela Digian</p>
+          <br>
+          <div class="quadros">
+            <div class="quadro1">
+              <img src="s1.png" width="10%" height="20%"> <br>
+              <h3>Links patrocinados</h3>
+              <p>Servicos de links patrocinados em sites
+                <b>alto</b> Tráfego de clientes.
+                </p>
+            </div>
+            <div class="quadro2">
+              <img src="s2.png" width="10%" height="20%">
+              <h3> SEO</h3>
+              <p>Tenha o controle das métricas de seu sice ou perfil nas redes sociais para resultados mais <b>assertivos</b> na web.
               </p>
-              <button class="iniciob" id="init"> INICIO</button>
-              </div>
-              <div class="sobreimagem">
-              <img src="sobre.png" width="470" height="550">
-              </div>
-              <div>
-               </section>
-               <section>
-                <div class="serv" id="serviço">
-                  <h2> Nossos serviços</h2>
-                  <p>Veja a seguir os serviços oferecidos pela Digian</p>
-                  <br>
-                  <div class="quadros">
-                    <div class="quadro1">
-                      <img src="s1.png" width="200" height="200"><br>
-                      <h3>Links patrocinados</h3>
-                      <p>Serviços de links patrocinados em sites
-                        <b>alto</b> Trafego de clientes.
-                      </p>
-                  </div>
-                  <div class="quadro2">
-                    <img src="s2.png" width="200" height="200">
-                    <h3> SEO</h3>
-                    <p>Tenha o controle das métricas de seu sice ou perfil nas redes sociais para resultados mais <b>assertivos</b> na web.
-                    </p>
-                  </div>
-                  <div class="quadro3">
-                    <img src="s3.png" width="200" height="200">
-                    <br>
-                    <h3>Marketing Online</h3>
-                    <p>Com o serviço de Marketing Online nas redes sociais sua empresa vai <b> aumentar</b> as chances de fechar novos negócios.
-                    </p>
-                  </div>
-                <div class="quadro4">
-                  <img src="s4.png" width="200" height="200">
-                  <br>
-                  <h3> E-Mail Marketing</h3>
-                  <p>Há anos o E-Mail Marketing se mostra uma eficiente <b> estratégia</b> para a divulgação de marcas e ações de Marketing na web.
-                  </p>
-                </div></div></div>
-               </section>
+          </div>
+          <div class="quadro3">
+            <img src="s3.png" width="10%" height="20%">
+            <br>
+            <h3> Marketing Online</h3>
+            <p>Com o serviço de Marketing Online nas redes sociais sua empresa vai <b> aumentar</b> as chances de fechar novos negócios.
+            </p>
+        </div>
+        <div class="quadro4">
+          <img src="s4.png" width="10%" height="20%">
+          <br>
+          <h3> E-Mail Marketing</h3>
+          <p>Há anos o E-Mail Marketing se mostra uma eficiente <b> estratégia</b> para a divulgação de marcas e ações de Marketing na web.
+          </p>
+        </div>
+      </div>
+    </div>
+       </section>
+  <section>
+    <div class="cont">
+      <div class="formbox">
+        Entre em contato conosco: <br>
+        <form method="post" action="#">
+        <label>Nome:</label>
+        <input type="text" width="40%"> <br>
+        <label>E-Mail:</label>
+        <input type="text" width="40%"> <br>
+        <label>Digite abaixo as suas dúvidas:</label><br>
+        <textarea cols="40" rows="10"></textarea><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+      </form>
+
+      </div>
+    <div class="imgcontato">
+      <img src="contato.png" width="70%" height="75%">
+    </div>
+    </div>
+  </section>
   </body>
 </html>
