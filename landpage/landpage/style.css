@@ -102,5 +102,107 @@ button:hover{
     display: inline-block;
     position: absolute;
 }
-/**/
-/**/
+/*Fim do Container Sobre Nós*/
+
+/*Inicio do Contâiner Serviços*/
+
+.serv{
+  align-items: center;
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+}
+.quadros{
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+.quadro1{
+  display: inline-block;
+  padding: 10px 5px 5px;
+  width: 280px;
+  height: 320px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #777;
+  border: 0.3px solid #CCC;
+  text-align: center;
+  position: absolute;
+}
+.quadro2{
+  display: inline-block;
+  padding: 10px 5px 5px;
+  width: 280px;
+  height: 320px;
+  margin-top: 40px;
+  margin-left: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #777;
+  border: 0.3px solid #CCC;
+  text-align: center;
+  position: absolute;
+}
+.quadro3{
+  display: inline-block;
+  padding: 10px 5px 5px;
+  width: 280px;
+  height: 320px;
+  margin-top: 40px;
+  margin-left: 1000px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #777;
+  border: 0.3px solid #CCC;
+  text-align: center;
+  position: absolute;
+}
+.quadro4{
+  display: inline-block;
+  padding: 10px 5px 5px;
+  width: 280px;
+  height: 320px;
+  margin-top: 40px;
+  margin-left: 1500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #777;
+  border: 0.3px solid #CCC;
+  text-align: center;
+  position: absolute;
+}
+/*Fim do Contâiner Serviço*/
+
+/*Inicio do Contâiner Contato*/
+
+.cont{
+  background-color: #7335b7;
+  top: 3000px;
+  width: 98vw;
+  height: 100vh;
+  border-radius: 0px 0px 280px 0px;
+  position: absolute;
+  display: block;
+  color: #CCC;
+}
+.imgcontato{
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+  display: inline-block;
+  width: auto;
+  height: 280px;
+}
+.formbox{
+  text-align: justify;
+  position: absolute;
+  display: block;
+  margin-left: 60px;
+  margin-top: 200px;
+}
+.forminput[type=text]{
+  outline: unset;
+  padding: 10px;
+  border: none;
+  display: flex;
+  border-radius: 10px;
+  background-color: #fff;
+}
